@@ -12,7 +12,7 @@ app.set('port', (process.env.PORT || 8080))
 app.use(bodyParser.urlencoded({extended: false}))
 app.use(bodyParser.json())
 
-//routing
+//routing done here
 app.get('/', function(req, res) {
     res.send('chatbot\'s first words')
 })
